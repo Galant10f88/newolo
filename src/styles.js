@@ -1,15 +1,17 @@
 export const basic = {
-  aside: "bg-gray-800",
+  aside: "bg-green-500 bg-opacity-30 backdrop-blur",
   asideScrollbars: "aside-scrollbars-gray",
-  asideBrand: "bg-gray-900 text-white",
-  asideMenuItem: "text-gray-300 hover:text-white",
-  asideMenuItemActive: "font-bold text-white",
-  asideMenuDropdown: "bg-gray-700/50",
+  asideBrand: "bg-green-900 bg-opacity-50 backdrop-blur text-white",
+  asideMenuItem: "text-white hover:text-black",
+  asideMenuItemActive: "font-bold text-green-600",
+  asideMenuDropdown: "bg-green-300 bg-opacity-30 backdrop-blur",
   navBarItemLabel: "text-black",
-  navBarItemLabelHover: "hover:text-blue-500",
-  navBarItemLabelActiveColor: "text-blue-600",
-  overlay: "from-gray-700 via-gray-900 to-gray-700",
+  navBarItemLabelHover: "hover:text-green-500",
+  navBarItemLabelActiveColor: "text-green-600",
+  overlay: "from-gray-700 via-green-500 to-gray-700",
 };
+
+//from-gray-700 via-gray-900 to-gray-700
 
 export const white = {
   aside: "bg-white",

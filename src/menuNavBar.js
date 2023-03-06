@@ -15,22 +15,22 @@ import {
 export default [
   {
     icon: mdiMenu,
-    label: "Sample menu",
+    label: "Quick menu",
     menu: [
       {
         icon: mdiClockOutline,
-        label: "Item One",
+        label: "Completed",
       },
       {
         icon: mdiCloud,
-        label: "Item Two",
+        label: "Pending",
       },
       {
         isDivider: true,
       },
       {
         icon: mdiCrop,
-        label: "Item Last",
+        label: "FAILED",
       },
     ],
   },
@@ -70,14 +70,7 @@ export default [
     icon: mdiGithub,
     label: "GitHub",
     isDesktopNoLabel: true,
-    href: "https://github.com/justboil/admin-one-vue-tailwind",
-    target: "_blank",
-  },
-  {
-    icon: mdiReact,
-    label: "React version",
-    isDesktopNoLabel: true,
-    href: "https://github.com/justboil/admin-one-react-tailwind",
+    href: "https://github.com/Galant10f88/",
     target: "_blank",
   },
   {

@@ -14,10 +14,10 @@ import AsideMenu from "@/components/AsideMenu.vue";
 import FooterBar from "@/components/FooterBar.vue";
 
 useMainStore().setUser({
-  name: "John Doe",
+  name: "Jared Johnson",
   email: "john@example.com",
   avatar:
-    "https://avatars.dicebear.com/api/avataaars/example.svg?options[top][]=shortHair&options[accessoriesChance]=93",
+    "https://api.dicebear.com/5.x/avataaars/svg?seed=Felix",
 });
 
 const layoutAsidePadding = "xl:pl-60";
@@ -84,7 +84,7 @@ const menuClick = (event, item) => {
             placeholder="Search (ctrl+k)"
             ctrl-k-focus
             transparent
-            borderless
+            
           />
         </NavBarItemPlain>
       </NavBar>
@@ -97,13 +97,7 @@ const menuClick = (event, item) => {
       />
       <slot />
       <FooterBar>
-        Get more with
-        <a
-          href="https://tailwind-vue.justboil.me/"
-          target="_blank"
-          class="text-blue-600"
-          >Premium version</a
-        >
+        
       </FooterBar>
     </div>
   </div>

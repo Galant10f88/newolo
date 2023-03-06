@@ -20,23 +20,13 @@ export default [
     label: "Dashboard",
   },
   {
-    to: "/tables",
-    label: "Tables",
-    icon: mdiTable,
-  },
-  {
-    to: "/forms",
-    label: "Forms",
-    icon: mdiSquareEditOutline,
-  },
-  {
-    to: "/ui",
-    label: "UI",
+    to: "/error",
+    label: "Order",
     icon: mdiTelevisionGuide,
   },
   {
-    to: "/responsive",
-    label: "Responsive",
+    to: "/error",
+    label: "Help",
     icon: mdiResponsive,
   },
   {
@@ -56,7 +46,17 @@ export default [
   },
   {
     to: "/error",
-    label: "Error",
+    label: "Completed",
+    icon: mdiTable,
+  },
+  {
+    to: "/error",
+    label: "Pending",
+    icon: mdiSquareEditOutline,
+  },
+  {
+    to: "/error",
+    label: "Failed",
     icon: mdiAlertCircle,
   },
   {
@@ -72,15 +72,9 @@ export default [
     ],
   },
   {
-    href: "https://github.com/justboil/admin-one-vue-tailwind",
+    href: "https://github.com/Galant10f88/",
     label: "GitHub",
     icon: mdiGithub,
-    target: "_blank",
-  },
-  {
-    href: "https://github.com/justboil/admin-one-react-tailwind",
-    label: "React version",
-    icon: mdiReact,
     target: "_blank",
   },
 ];
