@@ -14,10 +14,10 @@ import AsideMenu from "@/components/AsideMenu.vue";
 import FooterBar from "@/components/FooterBar.vue";
 
 useMainStore().setUser({
-  name: "Jared Johnson",
+  name: "Brittany The Queen",
   email: "john@example.com",
   avatar:
-    "https://api.dicebear.com/5.x/avataaars/svg?seed=Felix",
+  'https://avataaars.io/?avatarStyle=Transparent&topType=LongHairBigHair&accessoriesType=Blank&hairColor=BlondeGolden&facialHairType=Blank&clotheType=Hoodie&clotheColor=Pink&eyeType=Wink&eyebrowType=Default&mouthType=Default&skinColor=Light',
 });
 
 const layoutAsidePadding = "xl:pl-60";

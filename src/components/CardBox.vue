@@ -44,6 +44,8 @@ const submit = (event) => {
 };
 </script>
 
+//bg-gradient-to-r from-green-300/80 via-blue-500/50 to-purple-600/50 backdrop-blur-sm
+
 <template>
   <component
     :is="isForm ? 'form' : 'div'"
@@ -53,7 +55,7 @@ const submit = (event) => {
   >
     <slot v-if="hasComponentLayout" />
     <template v-else>
-      <CardBoxComponentBody :no-padding="hasTable" class=" relative backdrop-blur rounded-md bg-gray-400 bg-opacity-50">
+      <CardBoxComponentBody :no-padding="hasTable" class=" relative rounded-md bg-black bg-opacity-10 backdrop-blur-2xl">
         <slot />
       </CardBoxComponentBody>
       <CardBoxComponentFooter v-if="hasFooterSlot">

@@ -48,12 +48,12 @@ const transactionBarItems = computed(() => mainStore.history);
 <template>
   <LayoutAuthenticated>
     <SectionMain class='before:content-[""] before:bg-black before:fixed before:top-0 before:left-0 before:right-0 before:bottom-0 before:bg-[url("http://s3.amazonaws.com/reeve-assets-production/iStock-1327760987-CNS.jpg")] before:bg-cover before:bg:-center before:opacity-90'>
-      <div class="bg-opacity-50 rounded-md backdrop-blur bg-green-500 h-14 w-2/5">
+      <div class="bg-opacity-20 rounded-md backdrop-blur-lg bg-green-500 h-14 w-4/5 mb-6">
       <SectionTitleLineWithButton
         :icon="mdiChartTimelineVariant"
-        title="NewOLO Dashboard"
+        title="NewOLO — Dashboard"
         main
-        class = "relative text-green-100 font-semibold"
+        class = "relative text-white font-semibold"
       >
       </SectionTitleLineWithButton>
       </div>

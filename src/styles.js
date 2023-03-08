@@ -1,5 +1,5 @@
 export const basic = {
-  aside: "bg-green-500 bg-opacity-30 backdrop-blur",
+  aside: "bg-green-500 bg-opacity-20 backdrop-blur-lg",
   asideScrollbars: "aside-scrollbars-gray",
   asideBrand: "bg-green-900 bg-opacity-50 backdrop-blur text-white",
   asideMenuItem: "text-white hover:text-black",
